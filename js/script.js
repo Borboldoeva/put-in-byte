@@ -11,7 +11,7 @@ burger.addEventListener('click', () => {
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
         autoplay: true,
-        autoplayTimeout: 700,
+        autoplayTimeout: 800,
         autoplayHoverPause: true,
         items: 8,
         loop: true,
@@ -31,6 +31,45 @@ $(document).ready(function () {
     })
     $('.tabs-triggers__item:first').click();
 })
+
+$('.slide-one').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+$('.slide-two').owlCarousel({
+    loop:true,
+    nav:true,
+    margin: 40,
+    autoplay: true,
+    autoplayTimeout: 1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
 
 
 // $(".burger").click(function(){
