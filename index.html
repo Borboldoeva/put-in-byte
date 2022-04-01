@@ -2,121 +2,363 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-   
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <title>Document</title>
 </head>
 
 <body>
+  <div class="banner-img">
     <header class="header">
-        <div class="container">
-            <nav class="navbar">
-                <div class="navbar-logo"><img src="./images/PIb-img.png2.png" alt=""></div>
-                <ul class="navbar-nav">
-                    <li class="nav-items"><a href="#">About</a></li>
-                    <li class="nav-items"> <a href="#">Services</a></li>
-                    <li class="nav-items"> <a href="#">Technology</a></li>
-                    <li class="nav-items"><a href="#">Solutions</a></li>
-                    <li class="nav-items"><a href="#">Work</a></li>
-                    <li class="nav-items"><a href="#">Methodology</a></li>
-                </ul>
-                <div class="navbar-buttons">
-                    <button class="contact-btn"> <a href="#">Contact us</a>
-                        <span _ngcontent-c1="" class="fa fa-long-arrow-right"></span>
-                    </button>
-                    <button class="thems-btn"><img src="./images/night-mode-icon.svg" alt=""></button>
+      <div class="header__container">
+        <nav class="navbar">
+          <div class="navbar-logo"><img src="./images/PIb-img.png" alt=""></div>
+          <div class="navbar-list">
+            <ul class="navbar-nav">
+              <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                          data-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                          data-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                          data-toggle="dropdown" aria-expanded="false">
+                          Technology
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                          data-toggle="dropdown" aria-expanded="false">
+                          Solutions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                          data-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-            </nav>
-            <span class="span-navbar"></span>
-        </div>
+              </nav>
+            </ul>
+          </div>
+          <div class="navbar-buttons">
+            <button type="button" class="btn btn-outline-primary h-30">Contact us</button>
+            <span_ngcontent-c1="" class="fa fa-long-arrow-right">
+              </span_ngcontent-c1=>
+              </button>
+              <button class="thems-btn"><img src="./images/night-mode-icon.svg" alt=""></button>
+          </div>
+          <div class="burger">
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <span class="span3"></span>
+          </div>
+        </nav>
+
+      </div>
     </header>
     <main>
-        <section class="home">
-            <div class="home__container">
-                <p class="home__paragraph"> <b>Your Trusted <br> Development <br> Partner</b> </p>
-                <h1 class="home-desc">We deliver web and mobile app development services to global<br>  businesses since
-                    1998, with 100% projectdelivery success. Hire the  <br>best programmersat affordable prices.
-                    Our design-focused  <br>approach  and project execution processes help you to deliver the<br> right
-                    solutions.</h1>
-                <button class="home__button">What we do</button>
+      <section class="home">
+        <div class="home__container">
+          <p class="home__paragraph"> <b>Your Trusted <br> Development <br> Partner</b> </p>
+          <h1 class="home-desc">We deliver web and mobile app development services to global<br> businesses
+            since
+            1998, with 100% project delivery success. Hire the <br>best programmersat affordable prices.
+            Our design-focused <br>approach and project execution processes help you to deliver the<br>
+            right solutions.</h1>
+          <button type="button" class="btn btn-light">What we can do</button>
+        </div>
+      </section>
+  </div>
+  <section class="carousel">
+    <p>gpdlpflpdlp</p>
+    <div class="carousel-container">
+      <div class="owl-carousel">
+        <img src="./images/cartier.webp" alt="">
+        <img src="./images/cartier.webp" alt="">
+        <img src="./images/cartier.webp" alt="">
+        <img src="./images/cartier.webp" alt="">
+        <img src="./images/cartier.webp" alt="">
+        <img src="./images/cartier.webp" alt="">
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="consulting">
+    <div class="consulting__container">
+      <h2 class="cons-paragraph">Hire the Best Web and Mobile App Developers</h2>
+      <h3>Consulting</h3>
+      <p>IndiaNIC is a top web design agency and software development company with a large pool of <br> software
+        developers available for dedicated and fixed time/cost projects. Hire web developers <br> from IndiaNIC who have
+        proven expertise in trending web technologies like PHP, Laravel, Magento, <br> ReactJS, front-end technologies
+        like AngularJS and back-end technologies like Node.js to develop <br> custom and responsive websites, web apps
+        and eCommerce solutions. <br>
+        <br>
+        Our Android app, iOS app and cross-platform mobile app developers are adroit in the latest <br> mobile
+        technologies and tools like Android Studio, Xcode, Kotlin, Xamarin, PhoneGap, React Native, <br> etc. to build
+        next-gen mobile applications.</p>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <section class="tab-list">
+    <h6> <b>Programming languages</b> </h6>
+    <div class="wrapper">
+      <div class="tabs">
+        <div class="tabs-triggers">
+          <a href="#tab-1" class="tabs-triggers__item" aria-current="page" href="#">mobile</a>
+          <a href="#tab-2" class="tabs-triggers__item" href="#">front-end</a>
+          <a href="#tab-3" class="tabs-triggers__item" href="#">database</a>
+          <a href="#tab-4" class="tabs-triggers__item" href="#">back-end</a>
+          <a href="#tab-5" class="tabs-triggers__item" href="#">CMS</a>
+          <a href="#tab-6" class="tabs-triggers__item" href="#">Infra and DevOps</a>
+
+        </div>
+        <div class="tabs-content">
+          <div id="tab-1" class="tabs-content__item">
+            <div class="tabs-icons1">
+           <img src="./images/apple (1).png" alt="">
+            <img src="./images/android-logo.png" alt="">
+            <img src="./images/atom.png" alt="">
+            <img src="./images/icons8-flutter-50.png" alt="">
+            <img src="./images/icons8-ionic-50 (1).png" alt="">
+            <img src="./images/icons8-swift-50.png" alt="">
+            <img src="./images/icons8-kotlin-50.png" alt="">
+            <img src="./images/objective-c.svg" alt="">
+            <img src="./images/icon-titanium-51.png" alt="">
+            <img src="./images/icons8-xamarin-50.png" alt="">
+
             </div>
-            <div class="home__image"><img
-                    src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/home-page-banner-img.svg"
-                    alt=""></div>
-        </section>
 
-        <section class="logo__carousel">
-            <div class="container">
-                <ul class="logo-item">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./images/busines.insider.svg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/cactu5.svg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/busines.insider.svg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item active">
-                                <img src="./images/busines.insider.svg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/cactu5.svg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/busines.insider.svg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item active">
-                                <img src="./images/busines.insider.svg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/cactu5.svg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/busines.insider.svg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+          </div>
+
+          <div id="tab-2" class="tabs-content__item">
+            <div class="tabs-icons2">
+            <img src="./images/icons8-angularjs-50.png" alt="">
+            <img src="./images/icons8-react-native-50.png" alt="">
+            <img src="./images/icons8-typescript-50.png" alt="">
+            <img src="./images/icons8-vuejs-32.png" alt="">
+            <img src="" alt="">
+            <img src="./images/icons8-html-5-50.png" alt="">
+          </div>
+            </div>
+            
+
+          <div id="tab-3" class="tabs-content__item">
+            <div class="tabs-icons3">
+              <img src="./images/icons8-mongodb-a-cross-platform-document-oriented-database-program-24.png" alt="">
+            <img src="./images/icons8-mysql-logo-50.png" alt="">
+            <img src="./images/icons8-microsoft-sql-server-48.png" alt="">
+            <img src="./images/icons8-firebase-a-google's-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-48.png"
+              alt="">
+            <img src="./images/redis.png" alt="">
+            <img src="./images/realm.svg" alt="">
+            <img src="./images/259306_dynamodb_copy_database_icon.png" alt="">
+            <img src="./images/oracle.png" alt="">
+            <img src="./images/postgresql.png" alt="">
+            <img src="./images/redis.png" alt="">
+          </div>
+            </div>
+           
+
+          <div id="tab-4" class="tabs-content__item">
+            <div class="tabs-icons4">
+           <img src="./images/icons8-php-logo-32.png" alt="">
+          <img src="./images/icons8-java-50.png" alt="">
+          <img src="./images/night-mode-icon.svg" alt="">
+          <img src="./images/icons8-nodejs-32.png" alt="">
+          <img src="./images/icons8-ruby-on-rails-32.png" alt="">
+          <img src="./images/icons8-python-50.png" alt="">
+
+            </div>
+         
+
+          </div>
+          <div id="tab-5" class="tabs-content__item">
+            <div class="tabs-icons5">
+              <img src="./images/icons8-drupal-48.png" alt="">
+              <img src="./images/icons8-joomla-50.png" alt="">
+              <img src="./images/icons8-wordpress-60.png" alt="">
+              <img src="./images/icons8-magento-50.png" alt="">
+              <img src="./images/icons8-shopify-50.png" alt="">
             </div>
             </div>
-            </ul>
+            
+          <div id="tab-6" class="tabs-content__item">
+            <div class="tabs-icons6">
+              <img src="./images" alt="">
+             <img src="./images/icons8-google-cloud-48.png" alt="">
+             <img src="./images" alt="">
+             <img src="./images/icons8-jenkins-32.png" alt="">
+             <img src="./images/appium.png" alt="">
+             <img src="./images/icons8-selenium-30.png" alt="">
             </div>
-        </section>
-
-    </main>
+            
 
 
 
 
+          </div>
+        </div>
+
+
+
+  </section>
+
+
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+
+  </ul>
+  </div>
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
