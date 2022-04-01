@@ -1,10 +1,8 @@
-/* body {
- }  */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-/* @import url(./libs/slick/slick.css);
-@import url(./libs/slick/slick-theme.css); */
+
 
 * {
     margin: 0;
@@ -12,12 +10,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-.banner-img {
-    background: url(https://3.bp.blogspot.com/-jVLPElVZjmw/Wsk5GKnlYII/AAAAAAAAOvY/tZhN--FMehIk9TIZ9w8pcPnbdoIziB5dACLcBGAs/s1600/%25D0%2594%25D0%25B8%25D0%25B7%25D0%25B0%25D0%25B9%25D0%25BD%2B%25D0%25BE%25D1%2584%25D0%25B8%25D1%2581%25D0%25BE%25D0%25B2%2B%25D0%25B0%25D1%2580%25D1%2585%25D0%25B8%25D1%2582%25D0%25B5%25D0%25BA%25D1%2582%25D1%2583%25D1%2580%25D0%25BD%25D1%258B%25D1%2585%2B%25D0%25BA%25D0%25BE%25D0%25BC%25D0%25BF%25D0%25B0%25D0%25BD%25D0%25B8%25D0%25B9%2B%25D0%25B0%2B18.jpg) no-repeat center center;
-    background-size: cover;
-}
-
 
 .header {
     margin: 0 auto;
@@ -31,8 +23,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #fff;
-    backdrop-filter: blur(5px);
+    display: block;
    
 }
 
@@ -44,7 +35,7 @@
 .header .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    color: black;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -82,7 +73,6 @@
     justify-content: flex-end;
     flex-direction: row;
     align-items: center;
-    display: flex;
     justify-content: space-around;
     line-height: normal;
 }
@@ -107,7 +97,7 @@
     margin-right: 30px;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .nav-items a {
@@ -160,8 +150,6 @@ h1 {
     margin-top: 30px;
     margin-left: 130px;
 }
-
-
 
 .carousel__container {
     display: flex;
@@ -234,77 +222,63 @@ h1 {
 }
 
 .carousel {
+    z-index: -1 !important;
     margin-top: 70px;
 }
 
 .slide-two img{
-    width: 500px !important;
+    width: 300px !important;
     margin: 0 auto;
     padding: 20px;
 }
 
-.crsl-item:nth-child(1){
-    background-color: blue;
+ .crsl-item:nth-child(1){
+    background-color: rgb(191, 194, 191);
     border-radius: 20px;
-    height: 700px;
+    height: 650px;
     padding-left: 10px;
 }
 .crsl-item:nth-child(2){
     background-color: violet;
     border-radius: 20px;
-    height: 700px;
+    height: 650px;
 }
 
 .crsl-item:nth-child(3){
     background-color: rgb(106, 33, 106);
     border-radius: 20px;
-    height: 700px;
+    height: 650px;
 }
 
 .crsl-item:nth-child(4){
     background-color: rgb(175, 73, 109);
     border-radius: 20px;
-    height: 700px;
+    height: 650px;
 }
 
-
-.item5 {
-    background-color: rgb(39, 116, 151);
+.crsl-item:nth-child(5){
+    background-color: rgb(95, 95, 183);
     border-radius: 20px;
-    height: 700px;
+    height: 650px;
+    padding-left: 10px;
 }
-
-.item6 {
-    background-color: pink;
+.crsl-item:nth-child(6){
+    background-color: violet;
     border-radius: 20px;
-    height: 700px;
+    height: 650px;
 }
 
-.item7 {
-    background-color: beige;
+.crsl-item:nth-child(7){
+    background-color: rgb(106, 33, 106);
     border-radius: 20px;
-    height: 700px;
+    height: 650px;
 }
 
-.item8 {
-    background-color: rgb(158, 214, 212);
+.crsl-item:nth-child(8){
+    background-color: rgb(175, 73, 109);
     border-radius: 20px;
-    height: 700px;
-}
-
-.item9 {
-    background-color: mintcream;
-    border-radius: 20px;
-    height: 700px;
-
-}
-
-
-
-
-
-
-
+    height: 650px;
+} 
 .tabs-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -312,28 +286,23 @@ h1 {
 
 .content {
     padding: 20px;
-
     display: none;
     flex-basis: 50%;
 }
 
 .tab {
     display: flex;
-
     text-align: center;
     padding: 20px;
 }
 
 h6 {
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: 100px;
     padding-bottom: 80px;
-
-
 }
 
 .tabs-triggers {
@@ -349,8 +318,6 @@ h6 {
     background-color: #eeee;
     margin-bottom: 100px;
 }
-
-.tabs-content {}
 
 .tabs-content__item {
     display: none;
@@ -460,28 +427,7 @@ h6 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width:0px) and (max-width:576px) {
-
-    /* .header {
-       
-        }
-         .navbar {
-          
-            }  */
     .navbar-nav {
         display: flex;
         flex-direction: column;
