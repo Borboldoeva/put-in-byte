@@ -231,15 +231,17 @@ h1 {
     margin: 0 auto;
     padding: 20px;
 }
-
+.slide-two:nth-child(3){
+    background-color: green;
+}
  .crsl-item:nth-child(1){
-    background-color: rgb(191, 194, 191);
+    background-color: rgb(43, 185, 43);
     border-radius: 20px;
     height: 650px;
     padding-left: 10px;
 }
 .crsl-item:nth-child(2){
-    background-color: violet;
+    background-color: rgb(44, 22, 44);
     border-radius: 20px;
     height: 650px;
 }
