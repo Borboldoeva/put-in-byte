@@ -9,7 +9,7 @@ burger.addEventListener('click', () => {
 
 
 $(document).ready(function () {
-    $(".owl-carousel").owlCarousel({
+    $(".owl-carouse2l").owlCarousel({
         autoplay: true,
         autoplayTimeout: 800,
         autoplayHoverPause: true,
@@ -55,7 +55,7 @@ $('.slide-two').owlCarousel({
     loop:true,
     nav:true,
     margin: 40,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 1000,
     responsive:{
         0:{
