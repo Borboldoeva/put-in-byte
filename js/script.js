@@ -6,7 +6,7 @@ burger.addEventListener('click', () => {
     navbar.classList.toggle('active')
 })
 
-
+document.querySelector('')
 
 $(document).ready(function () {
     $(".owl-carouse2l").owlCarousel({
@@ -103,3 +103,4 @@ $(function () {
 //         $('.remove').attr("style", "display: flex");
 //     }
 // });
+
