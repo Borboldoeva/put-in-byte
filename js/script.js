@@ -6,8 +6,38 @@ burger.addEventListener('click', () => {
     navbar.classList.toggle('active')
 })
 
-document.querySelector('')
+//   const hover = document.getElementsByClassName('.crsl-item')
+//   hover.addEventListener('mouseenter', function(event) => {
+      
+//   })
+const tabs = document.querySelector('.tabs')
+tabs.addEventListener('click', () => {
+    console.log('tabs')
+    
+})
 
+// $('.tabs-triggers').click(function(){
+//     $(this).addClass('activeted');
+// });
+
+// $('.tabs-triggers').click(function(){
+//     $(this).removeClass('activeted');
+// });
+
+$('.crsl-item').hover(function(){
+    $(this).addClass('activeted');
+});
+
+$('.crsl-item').mouseover(function(){
+    $(this).removeClass('activeted');
+});
+
+$('.tabs').hover(function(){
+    $(this).addClass('activeted');
+})
+$('.tabs').mouseover(function(){
+    $(this).removeClass('activeted');
+});
 $(document).ready(function () {
     $(".owl-carouse2l").owlCarousel({
         autoplay: true,
