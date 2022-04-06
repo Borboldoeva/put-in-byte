@@ -68,6 +68,8 @@ $('.slide-one').owlCarousel({
     nav:true,
     autoplay: true,
     autoplayTimeout: 4000,
+    width: 30,
+    autoWidth: false,
     responsive:{
         0:{
             items:1
@@ -76,7 +78,7 @@ $('.slide-one').owlCarousel({
             items:3
         },
         1000:{
-            items:5
+            items:6
         }
     }
 })
