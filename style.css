@@ -208,7 +208,7 @@ ul.hire-item a{
 
 .hire {
     padding-top: 60px;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
 
 .hire h2 {
@@ -233,7 +233,78 @@ ul.hire-item a{
     margin-top: 50px;
 }
 
+.simple > div > h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px ;
+}
 
+.simple > div > div > div:nth-child(1) > h2{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.simple > div > div > div:nth-child(2) > h3{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.simple > div > div > div:nth-child(3) > h4{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.simple > div > div > div:nth-child(4) > h5{
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.simple > div > div > div:nth-child(4) > p{
+    padding-bottom: 10px;
+}
+
+.simple > div > div > div:nth-child(2) > img::before{
+    box-sizing: border-box;
+}
+
+.simple > div > div > div:nth-child(1) > div {
+    position: relative;
+}
+
+.simple > div > div > div:nth-child(1) > div::after{
+    position: absolute;
+    content: "";
+    width: 60%;
+    border: 1px dashed black;
+    top: 23px;
+    right: 23px;
+}
+
+.simple > div > div > div:nth-child(2) > div {
+    position: relative;
+}
+.simple > div > div > div:nth-child(2) > div::after{
+    position: absolute;
+    content: "";
+    width: 60%;
+    border: 1px dashed black;
+    top: 23px;
+    right: 23px;
+}
+.simple > div > div > div:nth-child(3) > div {
+    position: relative;
+}
+.simple > div > div > div:nth-child(3) > div::after{
+    position: absolute;
+    content: "";
+    width: 60%;
+    border: 1px dashed black;
+    top: 23px;
+    right: 23px;
+}
 .slide-one .owl-item img{
     width: 70px ;
     height: 70px;
@@ -507,8 +578,15 @@ ul.hire-item a{
 
 .tabs-content__item--active {
     display: block;
-    outline-color: blue;
     outline-width: 50px;
+}
+
+.tabs-triggers > a:hover{
+    color: red;
+}
+
+a.tabs-triggers__item.tabs-content__item--active{
+    color: red;
 }
 
 .tab-container {
