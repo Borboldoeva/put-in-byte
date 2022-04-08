@@ -198,7 +198,9 @@ ul.hire-item a{
     list-style: none;
     margin-left: 50px;
 }
-
+.hire > div > div > div.col{
+    margin-top: 45px;
+}
 .hamburger {
     padding: 50px;
     outline: none;
@@ -234,34 +236,29 @@ ul.hire-item a{
 }
 
 .simple > div > h1{
-    display: flex;
-    justify-content: center;
-    padding: 20px 20px ;
+    padding-bottom: 25px;
 }
-
 .simple > div > div > div:nth-child(1) > h2{
-    font-size: 24px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.simple > div > div > div:nth-child(2) > h3{
-    font-size: 24px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.simple > div > div > div:nth-child(3) > h4{
-    font-size: 24px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.simple > div > div > div:nth-child(4) > h5{
-    font-size: 24px;
+    font-size: 30px;
     padding-top: 15px;
     padding-bottom: 20px;
 }
 
+.simple > div > div > div:nth-child(2) > div > h3{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.simple > div > div > div:nth-child(3) > div > h4{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.simple > div > div > div:nth-child(4) > div > h5{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
 .simple > div > div > div:nth-child(4) > p{
     padding-bottom: 10px;
 }
@@ -503,6 +500,10 @@ ul.hire-item a{
     flex-wrap: wrap;
 }
 
+.tab-list > div > div{
+    margin-left: 250px;
+}
+
 .content {
     padding: 20px;
     display: none;
@@ -544,11 +545,9 @@ ul.hire-item a{
 }
 
 .tab-list > div{
-    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 260px;
 }
 .crsl-item.activeted h {
     transform: translateY(10px);
@@ -566,7 +565,18 @@ ul.hire-item a{
 
 .tabs-triggers {
     display: flex;
+    margin-left: 210px;
+    width: 62%;
+        
+
 }
+
+.tab-list > div > div > div.tabs-content{
+    margin-left: 200px;
+    width: 65%;
+}
+
+
 
 .tabs-triggers__item {
     color: black;
@@ -574,7 +584,6 @@ ul.hire-item a{
     padding: 20px;
     text-decoration: none;
     flex-grow: 1;
-    background-color: #eeee;
     margin-bottom: 100px;
 }
 
