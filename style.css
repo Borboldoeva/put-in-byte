@@ -71,10 +71,11 @@
     border: none;
     margin-left: 1px;
 }
-.navbar-buttons > button{
+
+.navbar-buttons>button {
     text-decoration: none;
     font-weight: normal;
-    background-color:red;
+    background-color: red;
     color: white;
     border-radius: 20px;
     border-color: red;
@@ -144,7 +145,7 @@
     margin-top: 40px;
 }
 
-.home__container > span {
+.home__container>span {
     font-size: 10px;
     margin-top: 200px;
     padding-top: 20px;
@@ -171,7 +172,7 @@
 }
 
 .home button {
-    background-color:red;
+    background-color: red;
     color: white;
     border-radius: 20px;
     margin-top: 30px;
@@ -183,24 +184,27 @@
     justify-content: center;
 }
 
-.col > ul{
-    margin-top:225px;
+.col>ul {
+    margin-top: 225px;
     color: red;
     text-decoration: none;
     list-style: none;
     margin-right: 100px;
 }
-ul.hire-item a{
-    margin-top:100px;
+
+ul.hire-item a {
+    margin-top: 100px;
     padding-top: 100px;
     color: red;
     text-decoration: none;
     list-style: none;
     margin-left: 50px;
 }
-.hire > div > div > div.col{
+
+.hire>div>div>div.col {
     margin-top: 45px;
 }
+
 .hamburger {
     padding: 50px;
     outline: none;
@@ -220,7 +224,7 @@ ul.hire-item a{
     padding-bottom: 30px;
     padding-top: 50px;
     margin-left: 130px;
-   
+
 }
 
 .hire p {
@@ -231,47 +235,52 @@ ul.hire-item a{
     font-weight: 400;
     padding-top: 40px;
 }
+
 .text {
     margin-top: 50px;
 }
 
-.simple > div > h1{
+.simple>div>h1 {
     padding-bottom: 25px;
 }
-.simple > div > div > div:nth-child(1) > h2{
+
+.simple>div>div>div:nth-child(1)>h2 {
     font-size: 30px;
     padding-top: 15px;
     padding-bottom: 20px;
 }
 
-.simple > div > div > div:nth-child(2) > div > h3{
+.simple>div>div>div:nth-child(2)>div>h3 {
     font-size: 30px;
     padding-top: 15px;
     padding-bottom: 20px;
 }
-.simple > div > div > div:nth-child(3) > div > h4{
+
+.simple>div>div>div:nth-child(3)>div>h4 {
     font-size: 30px;
     padding-top: 15px;
     padding-bottom: 20px;
 }
-.simple > div > div > div:nth-child(4) > div > h5{
+
+.simple>div>div>div:nth-child(4)>div>h5 {
     font-size: 30px;
     padding-top: 15px;
     padding-bottom: 20px;
 }
-.simple > div > div > div:nth-child(4) > p{
+
+.simple>div>div>div:nth-child(4)>p {
     padding-bottom: 10px;
 }
 
-.simple > div > div > div:nth-child(2) > img::before{
+.simple>div>div>div:nth-child(2)>img::before {
     box-sizing: border-box;
 }
 
-.simple > div > div > div:nth-child(1) > div {
+.simple>div>div>div:nth-child(1)>div {
     position: relative;
 }
 
-.simple > div > div > div:nth-child(1) > div::after{
+.simple>div>div>div:nth-child(1)>div::after {
     position: absolute;
     content: "";
     width: 60%;
@@ -280,10 +289,11 @@ ul.hire-item a{
     right: 23px;
 }
 
-.simple > div > div > div:nth-child(2) > div {
+.simple>div>div>div:nth-child(2)>div {
     position: relative;
 }
-.simple > div > div > div:nth-child(2) > div::after{
+
+.simple>div>div>div:nth-child(2)>div::after {
     position: absolute;
     content: "";
     width: 60%;
@@ -291,10 +301,12 @@ ul.hire-item a{
     top: 23px;
     right: 23px;
 }
-.simple > div > div > div:nth-child(3) > div {
+
+.simple>div>div>div:nth-child(3)>div {
     position: relative;
 }
-.simple > div > div > div:nth-child(3) > div::after{
+
+.simple>div>div>div:nth-child(3)>div::after {
     position: absolute;
     content: "";
     width: 60%;
@@ -302,18 +314,22 @@ ul.hire-item a{
     top: 23px;
     right: 23px;
 }
-.slide-one .owl-item img{
-    width: 70px ;
+
+.slide-one .owl-item img {
+    width: 70px;
     height: 70px;
 }
-.slide-one img{
+
+.slide-one img {
     margin-top: 130px;
     height: 80px;
     width: 30%;
 }
-.owl-carousel .owl-item .slide-one img{
+
+.owl-carousel .owl-item .slide-one img {
     width: 30%;
 }
+
 .company {
 
     background-color: #00000050;
@@ -500,7 +516,7 @@ ul.hire-item a{
     flex-wrap: wrap;
 }
 
-.tab-list > div > div{
+.tab-list>div>div {
     margin-left: 250px;
 }
 
@@ -544,11 +560,12 @@ ul.hire-item a{
     transition: .2s;
 }
 
-.tab-list > div{
+.tab-list>div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .crsl-item.activeted h {
     transform: translateY(10px);
 }
@@ -567,11 +584,11 @@ ul.hire-item a{
     display: flex;
     margin-left: 210px;
     width: 62%;
-        
+
 
 }
 
-.tab-list > div > div > div.tabs-content{
+.tab-list>div>div>div.tabs-content {
     margin-left: 200px;
     width: 65%;
 }
@@ -598,11 +615,11 @@ ul.hire-item a{
     outline-width: 50px;
 }
 
-.tabs-triggers > a:hover{
+.tabs-triggers>a:hover {
     color: red;
 }
 
-a.tabs-triggers__item.tabs-content__item--active{
+a.tabs-triggers__item.tabs-content__item--active {
     color: red;
 }
 
@@ -670,7 +687,6 @@ a.tabs-triggers__item.tabs-content__item--active{
 .tabs-icons4 {
     display: flex;
     justify-content: center;
-
     flex-wrap: wrap;
     gap: 150px;
     margin: 80px;
@@ -698,11 +714,132 @@ a.tabs-triggers__item.tabs-content__item--active{
     margin-right: 80px;
 }
 
-.marketplace-img {
+
+.our-work container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.our-work button {
+    text-decoration: none;
+    font-weight: normal;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border-color: red;
+}
+
+.our-work h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    font-size: 40px;
+    color: #252b33;
+    font-weight: 800;
+    line-height: 55px;
 }
+
+.info {
+    position: relative;
+    padding: 60px 40px 60px 60px;
+}
+
+.block-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.our-work>div>div>div>div:nth-child(1)>p {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.our-work h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -1.3px;
+    padding-bottom: 0;
+    margin-left: 100px;
+}
+
+.our-work h3 {
+    width: 650px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.our-work > div > div > div > div:nth-child(1) > div > div > img{
+    border-radius: 25px;
+}
+
+.founder-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.design .container {
+    background-image: linear-gradient(225deg, #5FB3F9, #4C55ED);
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    margin-top: 30px;
+    width: 400px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+.name{
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-right: 470px;
+    gap: 15px;
+   
+}
+.name span {
+color: rgba(255, 255, 255, 0.2);
+} 
+
+.our-work > div.design > div > div > div:nth-child(2) > img{
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
