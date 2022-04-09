@@ -593,8 +593,6 @@ ul.hire-item a {
     width: 65%;
 }
 
-
-
 .tabs-triggers__item {
     color: black;
     text-align: center;
@@ -762,7 +760,7 @@ a.tabs-triggers__item.tabs-content__item--active {
     margin-bottom: 70px;
     letter-spacing: 3px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .our-work h2 {
@@ -772,7 +770,7 @@ a.tabs-triggers__item.tabs-content__item--active {
     line-height: 52px;
     letter-spacing: -1.3px;
     padding-bottom: 0;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .our-work h3 {
@@ -786,8 +784,9 @@ a.tabs-triggers__item.tabs-content__item--active {
     padding-top: 10px;
 }
 
-.our-work > div > div > div > div:nth-child(1) > div > div > img{
-    border-radius: 25px;
+.our-work>div>div>div>div:nth-child(1)>div>div>img {
+    border-radius: 60px;
+    height: 50px;
 }
 
 .founder-icon {
@@ -798,6 +797,7 @@ a.tabs-triggers__item.tabs-content__item--active {
 
 .design .container {
     background-image: linear-gradient(225deg, #5FB3F9, #4C55ED);
+    border-radius: 6px;
 }
 
 .review {
@@ -808,39 +808,226 @@ a.tabs-triggers__item.tabs-content__item--active {
     margin-top: 30px;
     width: 400px;
     height: 150px;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
-.name{
+.name {
     color: #ffff;
     display: flex;
     flex-direction: row;
     margin-left: 20px;
-    padding-top: 10px;
-    margin-right: 470px;
     gap: 15px;
-   
 }
-.name span {
-color: rgba(255, 255, 255, 0.2);
-} 
 
-.our-work > div.design > div > div > div:nth-child(2) > img{
+.name span {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.our-work>div.design>div>div>div:nth-child(2)>img {
     padding-bottom: 30px;
 }
 
+.cambridge .container {
+    margin-top: 50px;
+    background-image: linear-gradient(225deg, #be1b4c, #d85079);
+    border-radius: 6px;
+}
+
+.cambridge h4 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -1.3px;
+    padding-bottom: 0;
+    margin-left: 30px;
+}
+
+.cambridge h5 {
+    width: 650px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.mng-icon {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.cambridge>div>div>div:nth-child(2)>img {
+    padding: 20px;
+}
+
+.share>div:nth-child(3)>div>div>div:nth-child(2)>img {
+    padding-bottom: 30px;
+}
+
+.share .container {
+    margin-top: 50px;
+    background-image: linear-gradient(225deg, #d65bce, #cc23b8);
+    border-radius: 6px;
+}
 
 
+.share .review {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    margin-top: 30px;
+    width: 400px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.share h4 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -1.3px;
+    padding-bottom: 0;
+    margin-left: 30px;
+}
+
+.share h5 {
+    width: 650px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.share>div>div>div:nth-child(2)>img {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
 
+.our-work>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: normal;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border-color: red;
+    margin-left: 900px;
+    margin-top: 30px;
+}
+
+.innovation .container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 100px;
+}
+
+.innovation h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.innovation p{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #252b33;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.innovation button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: normal;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border-color: red;
+    width: 200px;
+    margin-left: 430px;
+    margin-top: 30px;
+}
+
+.we-promise > div > div > div:nth-child(1){
+    margin-top: 150px;
+}
+
+.we-promise button{
+    text-decoration: none;
+    font-weight: normal;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border-color: red;
+    width: 200px;
+}
+
+.slide-three img {
+    width: 600px;
+    height: 300px;
+    margin-left: 650px;
+}
 
 
+.globe > div{
+    background: url(https://openclipart.org/image/800px/183675) no-repeat;
+    width: 100vw;
+    margin-top: 60px;
+}
+
+.globe button {
+    text-decoration: none;
+    font-weight: normal;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border-color: red;
+    width: 300px;
+}
+
+.text-box {
+    background: #fff;
+    padding: 80px;
+    box-shadow: 0 16px 54px 0 rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 120px 0;
+    width: 700px;
+}
+
+.globe p {
+    font-size: 16px;
+    color: #252b33;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
 
 
-
-
-
-
+.glode h5 {
+    font-size: 40px;
+    padding: 6px 0 24px 0;
+    font-weight: 600;
+}
 
 
 

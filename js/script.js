@@ -13,7 +13,6 @@ burger.addEventListener('click', () => {
 const tabs = document.querySelector('.tabs')
 tabs.addEventListener('click', () => {
     console.log('tabs')
-    
 })
 
 // $('.tabs-triggers').click(function(){
@@ -102,7 +101,24 @@ $('.slide-two').owlCarousel({
     }
 })
 
-
+$('.slide-three').slide({
+    loop:true,
+    nav:true,
+    margin: 40,
+    autoplay: false,
+    autoplayTimeout: 1000,
+    responsive:{
+        0:{
+            items:8
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
 
 // $(".burger").click(function(){
 //     console.log("hi")
