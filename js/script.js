@@ -93,29 +93,31 @@ $('.slide-two').owlCarousel({
             items:1
         },
         600:{
-            items:3
+            items:8
         },
         1000:{
-            items:5
+            items:3
         }
     }
 })
 
-$('.slide-three').slide({
+$('.slide-three').owlCarousel({
     loop:true,
+    margin:10,
     nav:true,
-    margin: 40,
-    autoplay: false,
-    autoplayTimeout: 1000,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    width: 30,
+    autoWidth: false,
     responsive:{
         0:{
-            items:8
+            items:1
         },
         600:{
             items:3
         },
         1000:{
-            items:5
+            items:6
         }
     }
 })
