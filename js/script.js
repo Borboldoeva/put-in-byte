@@ -96,7 +96,7 @@ $('.slide-two').owlCarousel({
             items:8
         },
         1000:{
-            items:3
+            items:4
         }
     }
 })
@@ -141,6 +141,29 @@ $(function () {
         $('.remove').attr("style", "display: flex");
     }
 });
+
+function clock (){
+    const hoursArrow = document.querySelector('hours')
+    const minutesArrow = document.querySelector('minutes')
+    const secondsArrow = document.querySelector('seconds')
+    const deg = 6 
+
+    setInterval(() => {
+     const day = new Date()
+
+     let hours = day.getHours() * 30
+     let minutes = day.getMinutes() * deg
+     let seconds = day.getSeconds() * deg
+
+     hoursArrow.style.transform = `rotateZ(${hours + (minutes / 12)}deg)`
+     minutesArrow.style.transform = `rotateZ(${hours + (minutes)}deg)`
+     secondsArrow.style.transform = `rotateZ(${hours + (seconds)}deg)`
+    },0)
+}
+clock()
+
+
+
 
 // $(window).resize(function(){
 //     let width = $(window).width();
