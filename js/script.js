@@ -142,27 +142,40 @@ $(function () {
     }
 });
 
-function clock (){
-    const hoursArrow = document.querySelector('hours')
-    const minutesArrow = document.querySelector('minutes')
-    const secondsArrow = document.querySelector('seconds')
-    const deg = 6 
+// function clock (){
+//     const hoursArrow = document.querySelector('hours')
+//     const minutesArrow = document.querySelector('minutes')
+//     const secondsArrow = document.querySelector('seconds')
+//     const deg = 6 
 
-    setInterval(() => {
-     const day = new Date()
+//     setInterval(() => {
+//      const day = new Date()
 
-     let hours = day.getHours() * 30
-     let minutes = day.getMinutes() * deg
-     let seconds = day.getSeconds() * deg
+//      let hours = day.getHours() * 30
+//      let minutes = day.getMinutes() * deg
+//      let seconds = day.getSeconds() * deg
 
-     hoursArrow.style.transform = `rotateZ(${hours + (minutes / 12)}deg)`
-     minutesArrow.style.transform = `rotateZ(${hours + (minutes)}deg)`
-     secondsArrow.style.transform = `rotateZ(${hours + (seconds)}deg)`
-    },0)
-}
-clock()
+//      hoursArrow.style.transform = `rotateZ(${hours + (minutes / 12)}deg)`
+//      minutesArrow.style.transform = `rotateZ(${minutes}deg)`
+//      secondsArrow.style.transform = `rotateZ(${seconds}deg)`
+//     },0)
+// }
+// clock()
 
+const deg = 6;
+const hr = document.querySelector('#hr');
+const sc = document.querySelector('#sc');
 
+setInterval(() => {
+    let day = new Date();
+let hh = day.getHours() * 30;
+let mm = day.getMinutes() * deg;
+let ss = day.getSeconds() * deg;
+
+hr.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
+mn.style.transform = `rotateZ(${mm}deg)`;
+sc.style.transform = `rotateZ(${ss}deg)`;
+})
 
 
 // $(window).resize(function(){
