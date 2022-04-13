@@ -9,6 +9,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    min-width: 1170px;
+}
 .header {
     margin: 0 auto;
     display: flex;
