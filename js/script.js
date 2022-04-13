@@ -83,7 +83,7 @@ $('.slide-one').owlCarousel({
 })
 
 $('.slide-two').owlCarousel({
-    loop:true,
+    loop:false,
     nav:true,
     margin: 40,
     autoplay: false,
@@ -96,7 +96,7 @@ $('.slide-two').owlCarousel({
             items:8
         },
         1000:{
-            items:4
+            items:5
         }
     }
 })

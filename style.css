@@ -28,7 +28,7 @@
 }
 
 
-.header__container {
+.header .container {
     width: 100vw;
     height: 120px;
 }
@@ -43,17 +43,12 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    flex-direction: row;
     z-index: 999;
     font-size: 16px;
 }
 
 .dropdown-toggle::after {
     visibility: hidden;
-}
-
-.navbar {
-    background-color: #fff;
 }
 
 .contact-btn {
@@ -83,11 +78,9 @@
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
     line-height: normal;
+    background-color: #fff;
 }
 
 .nav-items {
@@ -95,7 +88,7 @@
 }
 
 .navbar-logo img {
-    height: 110px;
+    height: 100px;
     width: 100px;
     margin-left: 3px;
     margin-right: 50px;
@@ -105,18 +98,18 @@
 
 .navbar-nav a {
     display: flex;
-    flex-direction: row;
-    row-gap: 2px;
+    gap: 2px;
     margin-right: 30px;
     font-size: 20px;
     font-weight: bold;
     color: black;
+    text-decoration: none;
 }
 
 .nav-items a {
     font-size: 25px;
     text-decoration: none;
-    color: rgb(10, 24, 68);
+    color: rgb(177, 183, 203);
     font-weight: normal;
 }
 
@@ -126,8 +119,20 @@
     margin: 10px;
     font-weight: bold;
     border-radius: 20px;
+    color: white;
 }
 
+.thems-btn img {
+    color: white;
+    background-color: white;
+}
+.navbar-list > ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
 
 .home {
     display: flex;
@@ -136,13 +141,12 @@
 
 .banner-img {
     padding-top: 140px;
-    margin-right: 250px;
 }
 
-.home__container {
+.home .container {
     width: 100vw;
-    margin-left: 250px;
     margin-top: 40px;
+    padding-left: 70px;
 }
 
 .home__container>span {
@@ -155,7 +159,6 @@
     margin-top: 130px;
     font-size: 60px;
     font-weight: 400;
-    margin-left: 130px;
 }
 
 .home__paragraph p {
@@ -167,7 +170,6 @@
 .home h2 {
     font-weight: normal;
     color: rgb(2, 6, 29);
-    margin-left: 130px;
     font-size: 16px;
 }
 
@@ -176,7 +178,6 @@
     color: white;
     border-radius: 20px;
     margin-top: 30px;
-    margin-left: 120px;
 }
 
 .carousel__container {
@@ -216,15 +217,15 @@ ul.hire-item a {
     padding-top: 60px;
     padding-bottom: 100px;
 }
-
+.hire .container {
+    padding-left: 160px;
+}
 .hire h2 {
     display: flex;
     justify-content: center;
     font-size: 40px;
     padding-bottom: 30px;
     padding-top: 50px;
-    margin-left: 130px;
-
 }
 
 .hire p {
@@ -244,6 +245,9 @@ ul.hire-item a {
     padding-bottom: 25px;
 }
 
+.simple .container {
+    padding-left: 160px;
+}
 .simple>div>div>div:nth-child(1)>h2 {
     font-size: 30px;
     padding-top: 15px;
@@ -314,7 +318,9 @@ ul.hire-item a {
     top: 23px;
     right: 23px;
 }
+.simple > div > div > div:nth-child(1) > div > img{
 
+}
 .slide-one .owl-item img {
     width: 70px;
     height: 70px;
@@ -656,7 +662,7 @@ ul.hire-item a {
 }
 
 .tab-list>div>div {
-    margin-left: 250px;
+    margin: 0 auto;
 }
 
 .content {
@@ -701,8 +707,7 @@ ul.hire-item a {
 
 .tab-list>div {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 .crsl-item.activeted h {
@@ -716,29 +721,29 @@ ul.hire-item a {
     flex-direction: column;
     font-size: 40px;
     padding-bottom: 80px;
-    margin-left: 100px;
+    padding-right: 40px;
 }
 
 .tabs-triggers {
     display: flex;
-    margin-left: 210px;
+    margin: 0 auto;
     width: 62%;
-
-
 }
 
+
+
+
 .tab-list>div>div>div.tabs-content {
-    margin-left: 200px;
+    margin: 0 auto;
     width: 65%;
 }
 
 .tabs-triggers__item {
     color: black;
     text-align: center;
-    padding: 20px;
     text-decoration: none;
     flex-grow: 1;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .tabs-content__item {
@@ -795,7 +800,6 @@ a.tabs-triggers__item.tabs-content__item--active {
     justify-content: center;
     flex-wrap: wrap;
     gap: 150px;
-    margin: 80px;
     margin-left: 80px;
     margin-right: 80px;
 
@@ -1184,7 +1188,7 @@ a.tabs-triggers__item.tabs-content__item--active {
     height: 8px;
     background-color: black;
     border-radius: 50%;
-    z-index: 999;
+    z-index: 12;
 }
 
 .clock .hour,
@@ -1295,17 +1299,119 @@ a.tabs-triggers__item.tabs-content__item--active {
     margin-left: 50px;
 }
 
+.footer .container {
+    padding-right: 100px;
+    padding-left: 80px;
+}
+.footer h1 {
+    margin-top: 30px;
+    color: #252B33;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
 
+.footer h2 {
+    margin-top: 30px;
+    color: #252B33;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
 
+.footer h3 {
+    margin-top: 30px;
+    color: #252B33;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer li{
+    color: #252B33;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:5px; 
+}
 
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer > div > div:nth-child(1) > div:nth-child(4){
+    margin-top: 70px;
+}
 
+.red-text {
+    color: #F13C31;
+    font-size: 14px;
+    font-weight: 600;
+}
 
+.footer > div > div:nth-child(1) > div:nth-child(1) > p.ft-title{
+    font-size: 14px;
+    color: #8b969f;
+    background: transparent;
+    height: inherit;
+}
 
+.footer > div > div:nth-child(1) > div:nth-child(1) > div.call-box > div:nth-child(1) > p{
+    font-size: 14px;
+    color: #8b969f;
+    background: transparent;
+    height: inherit;
+}
+
+.dmca{
+    margin-top: 20px;
+}
+.email-box{
+    margin-top: 20px;
+}
+
+.sub-footer{
+    border-top: 1px solid #EEEEEE;
+    margin-top: 40px;
+    padding: 30px 0;
+}
+
+.sub-footer > div > div > div:nth-child(1) > div {
+    font-size: 12px;
+    line-height: 20px;
+    color: #8A959E;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.footer > div > div.row > div:nth-child(1) > div > img{
+    width: 80px;
+}
+
+.logo-box {
+    padding-left: 180px;
+}
+.logo-box ul{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin-left: 24px;
+  padding: 0px 15px;
+}
+
+.logo-box img {
+    width: 20px;
+}
+
+.ft-title{
+    font-size: 14px;
+    color: #8b969f;
+    background: transparent;
+    height: inherit;
+}
 
 @media(min-width:0px) and (max-width:576px) {
     .navbar-nav {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
 
     }
 
