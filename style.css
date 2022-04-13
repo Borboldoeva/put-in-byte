@@ -64,7 +64,6 @@
     background-color: rgb(93, 76, 167) !important;
     outline: none;
     border: none;
-    margin-left: 1px;
 }
 
 .navbar-buttons>button {
@@ -76,6 +75,9 @@
     border-color: red;
 }
 
+.navbar-buttons{
+    padding-left: 120px;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -100,7 +102,7 @@
     display: flex;
     gap: 2px;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: black;
     text-decoration: none;
@@ -132,6 +134,7 @@
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    margin-left: 450px;
 }
 
 .home {
@@ -1225,7 +1228,7 @@ a.tabs-triggers__item.tabs-content__item--active {
     background-color: black;
     z-index: 10;
     border-radius: 6px 6px 0 0;
-    margin-top: 50px;
+    margin-top: 55px;
 
 }
 
@@ -1408,6 +1411,9 @@ a.tabs-triggers__item.tabs-content__item--active {
     height: inherit;
 }
 
+.footer .contacts{
+    padding-top: 30px;
+}
 @media(min-width:0px) and (max-width:576px) {
     .navbar-nav {
         display: flex;
