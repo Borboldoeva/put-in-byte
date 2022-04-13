@@ -339,15 +339,20 @@ ul.hire-item a {
     transition: .7s;
     font-size: 20px;
     text-decoration: none;
+    color: #f13c31; 
+
 }
 
+.read-more-btn{
+    color: #f13c31;
+}
 .crsl-item a::after {
     display: block;
 	position: absolute;
 	left: 0; 
 	width:  33%;
 	height: 3px; 
-	background-color: black; 
+	background-color: #f13c31; 
     transform: translateY(10px); 
 	content: "";
 	transition: width 0.3s ease-out;
@@ -361,7 +366,7 @@ ul.hire-item a {
 	left: 0; 
 	width: 0%;
 	height: 3px; 
-	background-color: black; 
+	background-color: #f13c31; 
     transform: translateY(10px); 
 	content: "";
 	transition: width 0.3s ease-out;
@@ -1155,117 +1160,29 @@ a.tabs-triggers__item.tabs-content__item--active {
     font-weight: 600;
 }
 
-.clock {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: wheat;
-}
 
-.clock::before {
-    content: "";
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: red;
-    z-index: 111;
+.time {
+    padding-top: 60px;
+    background-color: #FAFAFA;
 }
-
-.hour {
-    position: absolute;
-}
-
-.hours {
-    width: 160px;
-    height: 160px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
-.hours::before {
-    content: "";
-    position: absolute;
-    width: 8px;
-    height: 80px;
-    border-radius: 6px 6px 0 0;
-    background-color: grey;
-    z-index: 10;
-    margin-bottom: 66px;
-}
-
-.minute {
-    position: absolute;
-}
-
-.minutes {
-    width: 180px;
-    height: 180px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
-.minutes::before {
-    content: "";
-    position: absolute;
-    width: 9px;
-    height: 100px;
-    border-radius: 6px 6px 0 0;
-    z-index: 9;
-    margin-bottom: 630px;
-    margin-left: 165px;
-    background-color: rgb(73, 42, 42);
-}
-
-.second {
-    position: absolute;
-}
-
-.seconds {
-    width: 230px;
-    height: 230px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
-.seconds::before {
-    background-color: violet;
-    content: "";
-    position: absolute;
-    width: 3px;
-    height: 150px;
-    border-radius: 6px 6px 0 0;
-    z-index: 11;
-    margin-bottom: 680px;
-    margin-left: 115px;
-}
-
 .clock{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(189, 183, 183);
+    background-size: cover;
+    border-radius: 50%;
+     margin-left: 110px;
 }
 
 .clock:before{
     content: '';
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: #ffffff;
+    width: 8px;
+    height: 8px;
+    background-color: black;
     border-radius: 50%;
     z-index: 999;
 }
@@ -1294,24 +1211,27 @@ a.tabs-triggers__item.tabs-content__item--active {
     justify-content: center;
     position: absolute;
     border-radius: 50%;
-margin-top: 40px;
 }
 
 .hr:before{
     content: '';
     position: absolute;
-    width: 8px;
-    height: 43px;
-    background-color: rgb(202, 53, 53);
+    width: 4px;
+    height: 23px;
+    background-color: black;
     z-index: 10;
     border-radius: 6px 6px 0 0;
+    margin-top: 50px;
+
 }
+
 .mn:before{
     content: '';
     position: absolute;
     width: 4px;
-    height: 90px;
-    background-color: #fff;
+    height: 35px;
+    margin-top: 60px;
+    background-color: black;
     z-index: 11;
     border-radius: 6px 6px 0 0;
 }
@@ -1319,16 +1239,61 @@ margin-top: 40px;
     content: '';
     position: absolute;
     width: 2px;
-    height: 150px;
-    background-color: #fff;
+    height: 36px;
+    margin-top: 30px;
+    background-color: red;
     z-index: 12;
+    margin-top: 82px;
     border-radius: 6px 6px 0 0;
 }
 
+.city h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.city h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.city h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.city h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.city h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
 
-
-
-
+.city p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
 
 
 

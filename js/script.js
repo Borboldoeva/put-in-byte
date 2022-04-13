@@ -140,42 +140,71 @@ $(function () {
         $('.toggleButton').attr("style", "display: none");
         $('.remove').attr("style", "display: flex");
     }
+
+    const deg = 6;
+    const hr = document.querySelector('#hr');
+    const sc = document.querySelector('#sc');
+    
+    setInterval(() => {
+        let day = new Date();
+    let hh = day.getHours() * 30;
+    let mm = day.getMinutes() * deg;
+    let ss = day.getSeconds() * deg;
+        
+        hr.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
+        mn.style.transform = `rotateZ(${mm}deg)`;
+        sc.style.transform = `rotateZ(${ss}deg)`;
+    })
+
+    const deg2 = 6;
+    const hr2 = document.querySelector('#hr2');
+    const sc2 = document.querySelector('#sc2');
+    
+    setInterval(() => {
+        let day =  new Date();
+    let hh = day.getHours() * 30;
+    let mm = day.getMinutes() + 30 * deg;
+    let ss = day.getSeconds() + 30 * deg;
+    
+    hr2.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
+    mn2.style.transform = `rotateZ(${mm}deg)`;
+    sc2.style.transform = `rotateZ(${ss}deg)`;
+    })
+
+    const deg3 = 6;
+    const hr3 = document.querySelector('#hr3');
+    const sc3 = document.querySelector('#sc3');
+    
+    setInterval(() => {
+        let day =  new Date();
+    let hh = day.getHours() * 60;
+    let mm = day.getMinutes() + 60 * deg;
+    let ss = day.getSeconds() + 60 * deg;
+    
+    hr3.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
+    mn3.style.transform = `rotateZ(${mm}deg)`;
+    sc3.style.transform = `rotateZ(${ss}deg)`;
+    })
+
+    const deg4 = 6;
+    const hr4 = document.querySelector('#hr4');
+    const sc4 = document.querySelector('#sc4');
+    
+    setInterval(() => {
+        let day =  new Date();
+    let hh = day.getHours() * -30;
+    let mm = day.getMinutes() + -30 * deg;
+    let ss = day.getSeconds() + -30 * deg;
+    
+    hr4.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
+    mn4.style.transform = `rotateZ(${mm}deg)`;
+    sc4.style.transform = `rotateZ(${ss}deg)`;
+    })
+
 });
 
-// function clock (){
-//     const hoursArrow = document.querySelector('hours')
-//     const minutesArrow = document.querySelector('minutes')
-//     const secondsArrow = document.querySelector('seconds')
-//     const deg = 6 
 
-//     setInterval(() => {
-//      const day = new Date()
 
-//      let hours = day.getHours() * 30
-//      let minutes = day.getMinutes() * deg
-//      let seconds = day.getSeconds() * deg
-
-//      hoursArrow.style.transform = `rotateZ(${hours + (minutes / 12)}deg)`
-//      minutesArrow.style.transform = `rotateZ(${minutes}deg)`
-//      secondsArrow.style.transform = `rotateZ(${seconds}deg)`
-//     },0)
-// }
-// clock()
-
-const deg = 6;
-const hr = document.querySelector('#hr');
-const sc = document.querySelector('#sc');
-
-setInterval(() => {
-    let day = new Date();
-let hh = day.getHours() * 30;
-let mm = day.getMinutes() * deg;
-let ss = day.getSeconds() * deg;
-
-hr.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
-mn.style.transform = `rotateZ(${mm}deg)`;
-sc.style.transform = `rotateZ(${ss}deg)`;
-})
 
 
 // $(window).resize(function(){
