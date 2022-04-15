@@ -122,6 +122,7 @@ body {
     margin-left: 10px;
 }
 
+
 .navbar-list>ul {
     display: flex;
     flex-direction: row;
@@ -154,13 +155,13 @@ body {
     font-weight: 400;
 }
 
-#\32  > div > div > div:nth-child(1) > h1 > b{
+#\32>div>div>div:nth-child(1)>h1>b {
     font-size: 60px;
     margin-top: 20px;
     color: black;
 }
 
-.home .top p{
+.home .top p {
     font-size: 16px;
     color: #252b33;
     font-weight: 400;
@@ -168,7 +169,8 @@ body {
     display: block;
     margin-bottom: 16px;
 }
-.home p{
+
+.home p {
     font-weight: normal;
     color: rgb(2, 6, 29);
     font-size: 16px;
@@ -187,15 +189,14 @@ body {
 }
 
 .col>ul {
-    margin-top: 225px;
+    margin-top: 275px;
     color: red;
     text-decoration: none;
     list-style: none;
-    margin-right: 100px;
 }
 
 ul.hire-item a {
-    margin-top: 100px;
+    margin-top: 270px;
     padding-top: 100px;
     color: red;
     text-decoration: none;
@@ -219,9 +220,7 @@ ul.hire-item a {
     padding-bottom: 100px;
 }
 
-.hire .container {
-    padding-left: 160px;
-}
+
 
 .hire h2 {
     display: flex;
@@ -242,6 +241,8 @@ ul.hire-item a {
 
 .text {
     margin-top: 50px;
+    width: 800px;
+    margin-left: 130px;
 }
 
 .simple>div>h1 {
@@ -352,7 +353,6 @@ ul.hire-item a {
 }
 
 .crsl-item.activeted a::after {
-
     display: block;
     position: absolute;
     left: 0;
@@ -580,112 +580,32 @@ ul.hire-item a {
     overflow: visible !important;
 }
 
-
-/* .slide-two>div>div>div:nth-child(9)>div {
-    background-color: rgb(211, 109, 95);
-    border-radius: 20px;
-    height: 650px;
-    width: 400px;
-    padding-left: 30px;
-}
-
-.slide-two>div>div>div:nth-child(10)>div {
-    background-color: rgb(125, 125, 223);
-    border-radius: 20px;
-    height: 650px;
-    width: 400px;
-    padding-left: 30px;
-
-}
-
-.slide-two>div>div>div:nth-child(11)>div {
-    background-color: rgb(176, 125, 134);
-    border-radius: 20px;
-    height: 650px;
-    width: 400px;
-    padding-left: 30px;
-}
-
-.slide-two>div>div>div:nth-child(12)>div {
-    background-color: rgb(222, 222, 170);
-    border-radius: 20px;
-    height: 650px;
-    width: 400px;
-    padding-left: 30px;
-}
-
-.slide-two>div>div>div:nth-child(13)>div {
-    background-color: rgb(105, 184, 168);
-    width: 400px;
-    border-radius: 20px;
-    height: 650px;
-    padding-left: 10px;
-    padding-left: 30px;
-}
-
-.slide-two>div>div>div:nth-child(14)>div {
-    background-color: rgb(149, 191, 149);
-    border-radius: 20px;
-    height: 650px;
-    padding-left: 10px;
-    width: 400px;
-    padding-left: 30px;
-}
-
-.slide-two>div>div>div:nth-child(15)>div {
-    background-color: rgb(125, 125, 189);
-    border-radius: 20px;
-    height: 650px;
-    width: 400px;
-    padding-left: 30px;
-}
-
-.slide-two>div>div>div:nth-child(16)>div {
-    background-color: violet;
-    border-radius: 20px;
-    height: 650px;
-    width: 400px;
-    padding-left: 30px;
-}
-
-.slide-two>div>div>div:nth-child(17)>div {
-    background-color: rgb(138, 81, 174);
-    border-radius: 20px;
-    height: 650px;
-    width: 400px;
-    padding-left: 30px;
-}
-
-.slide-two>div>div>div:nth-child(18)>div {
-    background-color: rgb(211, 136, 109);
-    border-radius: 20px;
-    height: 650px;
-    width: 400px;
-    padding-left: 30px;
-} */
-
 #\36>div>div.owl-stage-outer>div>div:nth-child(1)>div {
     background-color: #75b2e4;
     width: 348.6px;
     height: 628px;
+    border-radius: 6px;
 }
 
 #\36>div>div.owl-stage-outer>div>div:nth-child(2)>div {
     background-color: rgb(217, 135, 188);
     width: 348.6px;
     height: 628px;
+    border-radius: 6px
 }
 
 #\36>div>div.owl-stage-outer>div>div:nth-child(3)>div {
     background-color: rgb(234, 147, 234);
     width: 348.6px;
     height: 628px;
+    border-radius: 6px;
 }
 
 #\36>div>div.owl-stage-outer>div>div:nth-child(4)>div {
     background-color: rgb(223, 142, 112);
     width: 348.6px;
     height: 628px;
+    border-radius: 6px;
 }
 
 
@@ -693,6 +613,7 @@ ul.hire-item a {
     background-color: rgba(0, 217, 255, 0.801);
     width: 348.6px;
     height: 628px;
+    border-radius: 6px;
 }
 
 .slide-two h {
@@ -1100,7 +1021,7 @@ a.tabs-triggers__item.tabs-content__item--active {
     padding-top: 10px;
 }
 
-#\38  > button{
+#\38>button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1237,28 +1158,26 @@ a.tabs-triggers__item.tabs-content__item--active {
 }
 
 .clock {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(189, 183, 183);
+    background: rgb(247, 241, 241);
     background-size: cover;
     border-radius: 50%;
-    margin-left: 90px;
+    margin-left: 120px;
     margin-bottom: 30px;
 }
-/* .clock-black{
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    background-size: cover;
-    border-radius: 50%;
-    margin-left: 110px;
-} */
+
+#\31 3>div>div>div:nth-child(2)>div.clock {
+    background-color: black;
+}
+
+#\31 5>div>div>div:nth-child(2)>div.clock {
+    background-color: black;
+}
+
 .clock:before {
     content: '';
     position: absolute;
@@ -1312,7 +1231,8 @@ a.tabs-triggers__item.tabs-content__item--active {
     border-radius: 6px 6px 0 0;
     margin-top: 57px;
 }
-.clock p{
+
+.clock p {
     font-size: 14px;
     line-height: 24px;
     color: #252B33;
@@ -1490,8 +1410,8 @@ a.tabs-triggers__item.tabs-content__item--active {
 .logo-box ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
-    margin-left: 24px;
+    gap: 35px;
+    margin-left: 2px;
     padding: 0px 15px;
 }
 
@@ -1511,11 +1431,22 @@ a.tabs-triggers__item.tabs-content__item--active {
     padding-top: 30px;
 }
 
-.logo-box{
+.logo-box {
     width: 300px;
     height: 25px;
 }
-@media(max-width:1326px)and(min-width:900px) {
+
+@media(max-width:1650px)and(min-width:1000px) {
+    .navbar-list {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:1400px)and(min-width:995px) {
+    .home .container {
+        max-width: 1000px;
+    }
+
     .home__paragraph p {
         font-size: 16px;
         background-color: grey;
@@ -1526,23 +1457,19 @@ a.tabs-triggers__item.tabs-content__item--active {
         padding-right: 0;
     }
 
-    .banner-img img {
+    #\32>div>div>div>div:nth-child(2)>div {
+        width: 400px;
+    }
+
+    #\32>div>div>div>div:nth-child(2)>div>img {
         margin-left: 10px;
-        width: 500px;
+        width: 450px;
         background-color: blue;
         padding-top: 90px;
     }
 }
 
-@media (min-width:800px)and(max-width:994px) {
-    .banner-img img {
-        width: 300px;
-        background-color: blue;
-        padding-top: 90px;
-    }
-}
-
-@media(min-width:0px) and (max-width:576px) {
+/* @media(min-width:0px) and (max-width:576px) {
 
     .navbar-nav {
         display: flex;
@@ -1612,12 +1539,28 @@ a.tabs-triggers__item.tabs-content__item--active {
     }
 
 
+} */
 
+.banner-img img {
+    width: clamp(18.75rem, 11.096938775510203rem + 32.6530612244898vw, 43.75rem) !important;
 
+}
 
+.banner-img img {
+    width: clamp(18.75rem, -9.375rem + 50vw, 28.125rem) important;
+}
 
+.banner-img img {
+    width: clamp(18.75rem, -18.750000000000007rem + 66.66666666666667vw, 31.25rem) important;
+}
 
+#\32>div>div>div:nth-child(1)>h1>b {
+    width: clamp(2.5rem, 0rem + 6.666666666666667vw, 3.75rem);
+    width: clamp(1rem, -0.75rem + 4.666666666666667vw, 1.875rem);
+}
 
-
-
+.top p {
+    width: clamp(0.625rem, 0.15625rem + 1.5vw, 1rem);
+    width: clamp(0.5rem, -0.125rem + 2vw, 1rem);
+    width: clamp(0.5rem, 0.25rem + 0.6666666666666667vw, 0.625rem);
 }
