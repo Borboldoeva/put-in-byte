@@ -24,11 +24,11 @@ tabs.addEventListener('click', () => {
 // });
 
 $('.crsl-item').hover(function(){
-    $(this).addClass('activeted');
+    $(this).removeClass('activeted');
 });
 
 $('.crsl-item').mouseover(function(){
-    $(this).removeClass('activeted');
+    $(this).addClass('activeted');
 });
 
 $('.tabs').hover(function(){
@@ -114,10 +114,10 @@ $('.slide-three').owlCarousel({
             items:1
         },
         600:{
-            items:3
+            items:1
         },
         1000:{
-            items:6
+            items:3
         }
     }
 })
