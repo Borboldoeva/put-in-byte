@@ -2,26 +2,49 @@ const burger = document.querySelector('.burger')
 const navbar = document.querySelector('.navbar-nav')
 burger.addEventListener('click', () => {
     console.log("hi")
-    burger.classList.toggle('active')
-    navbar.classList.toggle('active')
+    burger.classList.addClass('active')
+    navbar-nav.classList.addClass('active')
 })
 
-//   const hover = document.getElementsByClassName('.crsl-item')
-//   hover.addEventListener('mouseenter', function(event) => {
+function burgerMenu(selector) {
+    let menu = $(selector);
+    let button = menu.find('.burger-menu_button', '.burger-menu_lines');
+    let links = menu.find('.burger-menu_link');
+    let overlay = menu.find('.burger-menu_overlay');
+    
+    button.on('click', (e) => {
+      e.preventDefault();
+      toggleMenu();
+    });
+    
+    links.on('click', () => toggleMenu());
+    overlay.on('click', () => toggleMenu());
+    
+    function toggleMenu(){
+      menu.toggleClass('burger-menu_active');
       
-//   })
+      if (menu.hasClass('burger-menu_active')) {
+        $('body').css('overlow', 'hidden');
+      } else {
+        $('body').css('overlow', 'visible');
+      }
+    }
+  }
+  
+  burgerMenu('.burger-menu');
 const tabs = document.querySelector('.tabs')
 tabs.addEventListener('click', () => {
     console.log('tabs')
 })
 
-// $('.tabs-triggers').click(function(){
-//     $(this).addClass('activeted');
-// });
+$('.navbar-list').click(function(){
+    $(this).addClass('active');
+});
 
-// $('.tabs-triggers').click(function(){
-//     $(this).removeClass('activeted');
-// });
+$('.navbar-list').click(function(){
+    $(this).removeClass('active');
+});
+
 
 $('.crsl-item').hover(function(){
     $(this).removeClass('activeted');
@@ -92,11 +115,14 @@ $('.slide-two').owlCarousel({
         0:{
             items:1
         },
+        500:{
+            items:2
+        },
         600:{
-            items:8
+            items:3
         },
         1000:{
-            items:5
+            items:4
         }
     }
 })
@@ -122,14 +148,14 @@ $('.slide-three').owlCarousel({
     }
 })
 
-// $(".burger").click(function(){
-//     console.log("hi")
-//     this.classList.toggle('active')
-//     $(".navbar").toggleClass('active')
-// })
-// $('.carousel').carousel({
-//     interval:2000
-// })
+$(".burger").click(function(){
+    console.log("hi")
+    this.classList.toggle('active')
+    $(".navbar-list").toggleClass('active')
+})
+$('.carousel').carousel({
+    interval:2000
+})
 
 $(function () {
     let width = $(window).width();
@@ -203,7 +229,16 @@ $(function () {
 
 });
 
-
+$(simple).resize(function(){
+    let width = $(simple).width();
+   if (width < 600){
+    $('.simple::after').attr("style", "display: block");
+    $('.remove').attr("img::after");
+   }
+   else{
+    $('.')
+   }
+})
 
 
 
