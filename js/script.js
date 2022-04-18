@@ -1,20 +1,4 @@
-
-
-$('.crsl-item').hover(function(){
-    $(this).removeClass('activeted');
-});
-
-$('.crsl-item').mouseover(function(){
-    $(this).addClass('activeted');
-});
-
-$('.tabs').hover(function(){
-    $(this).addClass('activeted');
-})
-$('.tabs').mouseover(function(){
-    $(this).removeClass('activeted');
-});
-$(document).ready(function () {
+$(function () {
     $(".owl-carouse2l").owlCarousel({
         autoplay: true,
         autoplayTimeout: 800,
@@ -24,42 +8,29 @@ $(document).ready(function () {
         lazyLoadEager: 3
     });
 
-});
-
-
-$(document).ready(function () {
-    $('.tabs-triggers__item').click(function (e) {
-        e.preventDefault();
-        $('.tabs-triggers__item').removeClass('tabs-content__item--active');
-        $('.tabs-content__item').removeClass('tabs-content__item--active');
-        $(this).addClass('tabs-content__item--active')
-        $($(this).attr('href')).addClass('tabs-content__item--active')
-    })
-    $('.tabs-triggers__item:first').click();
-})
-
-$('.slide-one').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    width: 30,
-    autoWidth: false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:6
+        
+    $('.slide-one').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        width: 30,
+        autoWidth: false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:6
+            }
         }
-    }
-})
+    })
 
-// $('.slide-two').owlCarousel({
+    // $('.slide-two').owlCarousel({
 //     loop:false,
 //     nav:true,
 //     autoplay: false,
@@ -77,38 +48,60 @@ $('.slide-one').owlCarousel({
 //     }
 // })
 
-$('.slide-three').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    width: 30,
-    autoWidth: false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:3
+    $('.slide-three').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        width: 30,
+        autoWidth: false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:3
+            }
         }
-    }
-})
+    })
 
-$(".burger").click(function(){
-    console.log("hi")
-    this.classList.toggle('active')
-    $(".navbar").toggleClass('active')
-})
+    $('.crsl-item').hover(function(){
+        $(this).removeClass('activeted');
+    });
+    
+    $('.crsl-item').mouseover(function(){
+        $(this).addClass('activeted');
+    });
+    
+    $('.tabs').hover(function(){
+        $(this).addClass('activeted');
+    })
+    $('.tabs').mouseover(function(){
+        $(this).removeClass('activeted');
+    });
 
+     $('.tabs-triggers__item').click(function (e) {
+        e.preventDefault();
+        $('.tabs-triggers__item').removeClass('tabs-content__item--active');
+        $('.tabs-content__item').removeClass('tabs-content__item--active');
+        $(this).addClass('tabs-content__item--active')
+        $($(this).attr('href')).addClass('tabs-content__item--active')
+    })
+    $('.tabs-triggers__item:first').click();
 
+    $(".burger").click(function(){
+        console.log("hi")
+        this.classList.toggle('active')
+        $(".navbar").toggleClass('active')
+    })
+    
 
-$('.carousel').carousel({
-    interval:2000
-})
+});
+
 
 $(function () {
     let width = $(window).width();
@@ -123,6 +116,7 @@ $(function () {
     const deg = 6;
     const hr = document.querySelector('#hr');
     const sc = document.querySelector('#sc');
+    
     
     setInterval(() => {
         let day = new Date();
@@ -140,14 +134,14 @@ $(function () {
     const sc2 = document.querySelector('#sc2');
     
     setInterval(() => {
-        let day =  new Date();
-    let hh = day.getHours() * 30;
-    let mm = day.getMinutes() + 30 * deg;
-    let ss = day.getSeconds() + 30 * deg;
-    
-    hr2.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
-    mn2.style.transform = `rotateZ(${mm}deg)`;
-    sc2.style.transform = `rotateZ(${ss}deg)`;
+        let day2 = new Date('14 Jun 2022 09:18:00 GMT');
+        let hh = day2.getHours() * 60;
+        let mm = day2.getMinutes() + 60 * deg;
+        let ss = day2.getSeconds() * deg;
+        
+        hr2.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
+        mn2.style.transform = `rotateZ(${mm}deg)`;
+        sc2.style.transform = `rotateZ(${ss}deg)`;
     })
 
     const deg3 = 6;
@@ -155,10 +149,10 @@ $(function () {
     const sc3 = document.querySelector('#sc3');
     
     setInterval(() => {
-        let day =  new Date();
+    let day =  new Date();
     let hh = day.getHours() * 60;
     let mm = day.getMinutes() + 60 * deg;
-    let ss = day.getSeconds() + 60 * deg;
+    let ss = day.getSeconds() * deg;
     
     hr3.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
     mn3.style.transform = `rotateZ(${mm}deg)`;
@@ -171,9 +165,9 @@ $(function () {
     
     setInterval(() => {
         let day =  new Date();
-    let hh = day.getHours() * -30;
-    let mm = day.getMinutes() + -30 * deg;
-    let ss = day.getSeconds() + -30 * deg;
+    let hh = day.getHours() * 30;
+    let mm = day.getMinutes() + 30 * deg;
+    let ss = day.getSeconds() * deg;
     
     hr4.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
     mn4.style.transform = `rotateZ(${mm}deg)`;
@@ -181,18 +175,6 @@ $(function () {
     })
 
 });
-
-$(simple).resize(function(){
-    let width = $(simple).width();
-   if (width < 600){
-    $('.simple::after').attr("style", "display: block");
-    $('.remove').attr("img::after");
-   }
-   else{
-    $('.')
-   }
-})
-
 
 
 // $(window).resize(function(){
