@@ -1,49 +1,3 @@
-const burger = document.querySelector('.burger')
-const navbar = document.querySelector('.navbar-nav')
-burger.addEventListener('click', () => {
-    console.log("hi")
-    burger.classList.addClass('active')
-    navbar-nav.classList.addClass('active')
-})
-
-function burgerMenu(selector) {
-    let menu = $(selector);
-    let button = menu.find('.burger-menu_button', '.burger-menu_lines');
-    let links = menu.find('.burger-menu_link');
-    let overlay = menu.find('.burger-menu_overlay');
-    
-    button.on('click', (e) => {
-      e.preventDefault();
-      toggleMenu();
-    });
-    
-    links.on('click', () => toggleMenu());
-    overlay.on('click', () => toggleMenu());
-    
-    function toggleMenu(){
-      menu.toggleClass('burger-menu_active');
-      
-      if (menu.hasClass('burger-menu_active')) {
-        $('body').css('overlow', 'hidden');
-      } else {
-        $('body').css('overlow', 'visible');
-      }
-    }
-  }
-  
-  burgerMenu('.burger-menu');
-const tabs = document.querySelector('.tabs')
-tabs.addEventListener('click', () => {
-    console.log('tabs')
-})
-
-$('.navbar-list').click(function(){
-    $(this).addClass('active');
-});
-
-$('.navbar-list').click(function(){
-    $(this).removeClass('active');
-});
 
 
 $('.crsl-item').hover(function(){
@@ -105,27 +59,23 @@ $('.slide-one').owlCarousel({
     }
 })
 
-$('.slide-two').owlCarousel({
-    loop:false,
-    nav:true,
-    margin: 40,
-    autoplay: false,
-    autoplayTimeout: 1000,
-    responsive:{
-        0:{
-            items:1
-        },
-        500:{
-            items:2
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:4
-        }
-    }
-})
+// $('.slide-two').owlCarousel({
+//     loop:false,
+//     nav:true,
+//     autoplay: false,
+//     autoplayTimeout: 1000,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         500:{
+//             items:1
+//         },
+//         1000:{
+//             items:1
+//         }
+//     }
+// })
 
 $('.slide-three').owlCarousel({
     loop:true,
@@ -151,8 +101,11 @@ $('.slide-three').owlCarousel({
 $(".burger").click(function(){
     console.log("hi")
     this.classList.toggle('active')
-    $(".navbar-list").toggleClass('active')
+    $(".navbar").toggleClass('active')
 })
+
+
+
 $('.carousel').carousel({
     interval:2000
 })
