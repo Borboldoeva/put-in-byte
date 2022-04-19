@@ -25,7 +25,6 @@
 }
 
 .header .navbar {
-
     display: -webkit-box;
     display: -ms-flexbox;
     color: black;
@@ -47,47 +46,7 @@
     visibility: hidden;
 }
 
-.contact-btn {
-    width: 160px;
-    height: 60px;
-    color: white;
-    font-size: 20px;
-    font-weight: normal;
-    border-radius: 2rem;
-    text-align: center;
-    font-weight: normal;
-    overflow: hidden;
-    background-color: rgb(93, 76, 167) !important;
-    outline: none;
-    border: none;
-}
-
 .navbar-buttons>button.btn.btn-light {
-    background-color: red;
-    color: white;
-    border-radius: 20px;
-    padding: 10px 30px;
-    border-color: red;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    line-height: normal;
-    background-color: #fff;
-}
-
-/* .nav-items {
-    margin-right: 80px;
-} */
-
-.cons-paragraph{
-    font-size: 50px;
-    font-weight: 600;
-    padding-bottom: 60px;
-}
-
-.view-all-btn{
     background-color: red;
     color: white;
     text-decoration: none;
@@ -95,11 +54,25 @@
     border-radius: 30px;
     transition: .3s;
 }
-
-
-.view-all-btn:hover{
+.navbar-buttons>button.btn.btn-light:hover{
     background-color: rgb(224, 224, 224);
 }
+.navbar {
+    display: flex;
+    align-items: center;
+    line-height: normal;
+    background-color: #fff;
+}
+
+.cons-paragraph{
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .navbar-logo img {
     height: 60px;
@@ -198,10 +171,14 @@
 .home button {
     background-color: red;
     color: white;
-    border-radius: 20px;
-    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .3s;
 }
-
+.home button:hover{
+    background-color: rgb(224, 224, 224);
+}
 .carousel__container {
     display: flex;
     justify-content: center;
@@ -807,15 +784,17 @@ a.tabs-triggers__item.tabs-content__item--active {
     padding-right: 15px;
 }
 
-.our-work button {
-    text-decoration: none;
-    font-weight: normal;
+.view-all-btn{
     background-color: red;
     color: white;
-    border-radius: 20px;
-    border-color: red;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .3s;
 }
-
+.view-all-btn:hover{
+    background-color: rgb(224, 224, 224);
+}
 .our-work h1 {
     display: flex;
     justify-content: center;
@@ -1050,15 +1029,16 @@ a.tabs-triggers__item.tabs-content__item--active {
 }
 
 .we-promise button {
-    text-decoration: none;
-    font-weight: normal;
     background-color: red;
     color: white;
-    border-radius: 20px;
-    border-color: red;
-    width: 200px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .3s;
 }
-
+.view-all-btn:hover{
+    background-color: rgb(224, 224, 224);
+}
 .slide-three img {
     width: 600px;
     height: 300px;
@@ -1083,15 +1063,16 @@ a.tabs-triggers__item.tabs-content__item--active {
 }
 
 .globe button {
-    text-decoration: none;
-    font-weight: normal;
     background-color: red;
     color: white;
-    border-radius: 20px;
-    border-color: red;
-    width: 300px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .3s;
 }
-
+.globe button:hover{
+    background-color: rgb(224, 224, 224);
+}
 .text-box {
     background: #fff;
     padding: 80px;
@@ -1406,7 +1387,11 @@ a.tabs-triggers__item.tabs-content__item--active {
     width: 100%;
 }
 
-
+@media(min-width:0px) and (max-width:1160px){
+    .navbar-list {
+        font-size: 10px;
+    }
+}
 @media(min-width:0px) and (max-width:576px) {
 
     .header .navbar {
