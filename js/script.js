@@ -51,7 +51,7 @@ $(function () {
     $('.slide-three').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
         autoplay: true,
         autoplayTimeout: 4000,
         width: 30,
@@ -94,11 +94,16 @@ $(function () {
     $('.tabs-triggers__item:first').click();
 
     $(".burger").click(function(){
-        console.log("hi")
         this.classList.toggle('active')
         $(".navbar").toggleClass('active')
+        this.classList.toggle('active')
+        $(".navbar-buttons").toggleClass('active')
+         this.classList.toggle('active')
+        $(".navbar-logo").toggleClass('active')
+        $('.remove').attr("style", "display: flex");
     })
     
+   
 
 });
 
