@@ -64,7 +64,7 @@ $(function () {
                 items:1
             },
             1000:{
-                items:3
+                items:5
             }
         }
     })
@@ -125,8 +125,8 @@ $(function () {
     
     setInterval(() => {
         let day = new Date();
-    let hh = day.getHours() * 30;
-    let mm = day.getMinutes() * deg;
+    let hh = day.getHours() * 100;
+    let mm = day.getMinutes() * 80;
     let ss = day.getSeconds() * deg;
         
         hr.style.transform = `rotateZ(${(hh) + (mm/12)}deg)`;
@@ -139,8 +139,8 @@ $(function () {
     const sc2 = document.querySelector('#sc2');
     
     setInterval(() => {
-        let day2 = new Date('14 Jun 2022 09:18:00 GMT');
-        let hh = day2.getHours() * 60;
+        let day2 = new Date();
+        let hh = day2.getHours() * 95;
         let mm = day2.getMinutes() + 60 * deg;
         let ss = day2.getSeconds() * deg;
         
@@ -155,7 +155,7 @@ $(function () {
     
     setInterval(() => {
     let day =  new Date();
-    let hh = day.getHours() * 60;
+    let hh = day.getHours() * 170;
     let mm = day.getMinutes() + 60 * deg;
     let ss = day.getSeconds() * deg;
     
@@ -170,7 +170,7 @@ $(function () {
     
     setInterval(() => {
         let day =  new Date();
-    let hh = day.getHours() * 30;
+    let hh = day.getHours() * 56;
     let mm = day.getMinutes() + 30 * deg;
     let ss = day.getSeconds() * deg;
     
@@ -181,16 +181,4 @@ $(function () {
 
 });
 
-
-// $(window).resize(function(){
-//     let width = $(window).width();
-//     if (width < 576){
-//         $('.toggleButton').attr("style", "display: block");
-//         $('.remove').attr("style", "display: none");
-//     }
-//     else{
-//         $('.toggleButton').attr("style", "display: none");
-//         $('.remove').attr("style", "display: flex");
-//     }
-// });
 
