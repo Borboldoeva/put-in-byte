@@ -30,24 +30,6 @@ $(function () {
         }
     })
 
-    // $('.slide-two').owlCarousel({
-//     loop:false,
-//     nav:true,
-//     autoplay: false,
-//     autoplayTimeout: 1000,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         500:{
-//             items:1
-//         },
-//         1000:{
-//             items:1
-//         }
-//     }
-// })
-
     $('.slide-three').owlCarousel({
         loop:true,
         margin:10,
@@ -58,10 +40,10 @@ $(function () {
         autoWidth: false,
         responsive:{
             0:{
-                items:1
+                items:2
             },
             600:{
-                items:1
+                items:3
             },
             1000:{
                 items:5
