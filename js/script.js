@@ -8,42 +8,20 @@ $(function () {
         lazyLoadEager: 3
     });
 
-        
-    $('.slide-one').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        width: 30,
-        autoWidth: false,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:6
-            }
-        }
-    })
 
     $('.slide-three').owlCarousel({
         loop:true,
-        margin:10,
+        margin:140,
         nav:false,
         autoplay: true,
         autoplayTimeout: 4000,
-        width: 30,
-        autoWidth: false,
+        autoWidth: true,
         responsive:{
             0:{
                 items:2
             },
             600:{
-                items:3
+                items:2
             },
             1000:{
                 items:5
