@@ -734,6 +734,7 @@ a.tabs-triggers__item.tabs-content__item--active {
 .clients .owl-item img {
     width: auto;
     height: 150px;
+    width: 280px;
 }
 
 .globe>div {
@@ -803,7 +804,27 @@ a.tabs-triggers__item.tabs-content__item--active {
     font-weight: 600;
 }
 
+.project .owl-item img {
+       height: 200px;
+       padding-left: 12px;
+       padding-top: 10px;
+       padding-right: 20px;
+}
 
+.project .card-img{
+    width: 200px;
+    height: 400px;
+    background-color:#ffff ;
+    border-radius: 10px;
+    box-shadow: 0 16px 54px 0 rgb(88 85 85 / 55%);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.text {
+    display: flex;
+    text-align: center;
+    padding-right: 8px;
+}
 .time {
     margin-top: 30px;
     padding-top: 60px;
@@ -1169,11 +1190,12 @@ a.tabs-triggers__item.tabs-content__item--active {
         width: 100%;
         display: block;
         font-size: 20px;
-        line-height: 62px;
-        height: 390px;
+        line-height: 60px;
+        height: 435px;
+        padding-top: 20px;
         background-color: #fff;
-        right: 5px;
-        top: 75px;
+        right: -1px;
+        top: 85px;
         position: fixed;
         transition: .7s;
     }
@@ -1285,8 +1307,8 @@ a.tabs-triggers__item.tabs-content__item--active {
 
     #\31>div.row>div>div.navbar-buttons.active {
         background-size: cover;
-        top: 400px;
-        right: 215px;
+        top: 457px;
+        right: 217px;
         position: absolute;
         display: block;
     }
