@@ -29,6 +29,26 @@ $(function () {
         }
     })
 
+    $('.slide-four').owlCarousel({
+        loop:true,
+        margin:140,
+        nav:false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoWidth: false,
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+
     $('.crsl-item').hover(function(){
         $(this).removeClass('activeted');
     });
