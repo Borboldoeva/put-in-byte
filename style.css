@@ -112,7 +112,7 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 60px;
+    top: 115px;
 }
 
 .home img {
@@ -731,10 +731,10 @@ a.tabs-triggers__item.tabs-content__item--active {
     background-position: clamp(0rem, -15.057397959183675rem + 64.24489795918367vw, 49.1875rem);
 }
 
-#\31 2>div>div>div:nth-child(2)>img {
+/* #\31 2>div>div>div:nth-child(2)>img {
     width: 100px;
     height: 100px;
-}
+} */
 
 #\31 2>div>div>div:nth-child(2) {
     display: flex;
@@ -742,19 +742,21 @@ a.tabs-triggers__item.tabs-content__item--active {
     align-items: center;
 }
 
-#\31 2>div>div>div:nth-child(2)>div.ball-box>div:nth-child(1)>img {
+/* #\31 2>div>div>div:nth-child(2)>div.ball-box>div:nth-child(1)>img {
     width: 60%;
 }
 
 #\31 2>div>div>div:nth-child(2)>div:nth-child(2)>img {
     width: 80%;
-}
+} */
 
 .ball-box {
     display: flex;
     align-items: self-end;
 }
-
+.ball-box img{
+    width: 105px;
+}
 .text-box {
     background: #fff;
     padding: 70px 40px;
@@ -774,10 +776,6 @@ a.tabs-triggers__item.tabs-content__item--active {
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 16px;
-}
-
-.globe img {
-    width: 100%;
 }
 
 .glode h5 {
